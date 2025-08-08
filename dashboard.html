@@ -1,0 +1,23 @@
+<!-- dashboard.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RugPlay Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>My Coins</h1>
+    <button id="logout-btn">Logout</button>
+    <div>
+      <input type="text" id="coin-name" placeholder="New coin name" />
+      <button id="create-coin-btn">Create Coin</button>
+    </div>
+    <ul id="coin-list"></ul>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
